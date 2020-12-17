@@ -8,3 +8,16 @@ spec:
   containers:
   - name: web
     image: demshin/nginx
+    volumeMounts:
+      - mountPath: /app
+        name: app
+  initContainers:
+    - name: init-app
+      image: busybox:1.32.0
+      command: ['sh', '-c', 'wget -O- https://tinyurl.com/otus-k8s-intro | sh']
+      volumeMounts:
+        - mountPath: /app
+          name: app
+  volumes:
+    - name: app
+      emptyDir: {}

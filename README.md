@@ -5,6 +5,7 @@ Aleksandr Demshin Platform repository
 ## Table of contents
 
 [Homework - 1. Kubernetes Intro](#homework---1-kubernetes-intro)
+[Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
 
 ## Homework - 1. Kubernetes Intro
 
@@ -57,3 +58,11 @@ Controlled By:  Node/minikube
    1. Изучен способ запуска подов ad-hoc.
    2. Изучена генерация манифестов с использованием ad-hoc режима.
    3. Задание со 🌟. Выяснена и устранена причина ошибок при старте Hipster Shop frontend.
+
+## Homework - 2. Kubernetes Controllers
+
+1. Установлен Kind и запущен кластер. См. `kubernetes-controllers/kind-config.yaml`.
+2. Изучен ReplicaSet.
+3. Изучен Deployment, включая задание со 🌟.
+4. Изучены Probes.
+5. Изучен DaemonSet на примере Node Exporter, включая задания со 🌟 и 🌟🌟.

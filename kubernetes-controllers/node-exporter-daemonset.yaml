@@ -36,6 +36,9 @@ spec:
         app.kubernetes.io/part-of: kube-prometheus
         app.kubernetes.io/version: v1.0.1
     spec:
+      tolerations:
+        - key: node-role.kubernets.io/master
+          effect: NoSchedule
       containers:
         - args:
             - --web.listen-address=127.0.0.1:9100

@@ -4,8 +4,10 @@ Aleksandr Demshin Platform repository
 
 ## Table of contents
 
-[Homework - 1. Kubernetes Intro](#homework---1-kubernetes-intro)
-[Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
+- [Homework - 1. Kubernetes Intro](#homework---1-kubernetes-intro)
+- [Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
+- [Homewprk - 3. Kubernetes Security](#homework---3-kubernetes-security)
+- [Homework - 4. Kubernetes Networks](#homework---4-kubernetes-networks)
 
 ## Homework - 1. Kubernetes Intro
 
@@ -67,6 +69,9 @@ Controlled By:  Node/minikube
 4. Изучены Probes.
 5. Изучен DaemonSet на примере Node Exporter, включая задания со 🌟 и 🌟🌟.
 
-## Homework -3. Kubernetes Security
+## Homework - 3. Kubernetes Security
 
 Работа с ServiceAccounts, Roles, ClusterRoles, ClusterRoleBindings, RoleBindings, Namespaces.
+
+## Homework - 4. Kubernetes Networks
+

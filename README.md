@@ -66,3 +66,7 @@ Controlled By:  Node/minikube
 3. Изучен Deployment, включая задание со 🌟.
 4. Изучены Probes.
 5. Изучен DaemonSet на примере Node Exporter, включая задания со 🌟 и 🌟🌟.
+
+## Homework -3. Kubernetes Security
+
+Работа с ServiceAccounts, Roles, ClusterRoles, ClusterRoleBindings, RoleBindings, Namespaces.

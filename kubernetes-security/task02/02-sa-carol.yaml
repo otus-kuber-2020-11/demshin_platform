@@ -9,23 +9,22 @@ metadata:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
-  name: cluster-pod-reader
+  name: cluster-pods-reader
 rules:
   - apiGroups: [ "" ]
-    resources: [ "pod" ]
+    resources: [ "pods" ]
     verbs: [ "get", "watch", "list" ]
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
+kind: ClusterRoleBinding
 metadata:
   name: read-pods
-  namespace: prometheus
 subjects:
   - kind: Group
-    name: system:prometheus:serviceaccounts
+    name: system:serviceaccounts:prometheus
     apiGroup: rbac.authorization.k8s.io
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: Role
-  name: pod-reader
+  kind: ClusterRole
+  name: cluster-pods-reader

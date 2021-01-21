@@ -4,10 +4,14 @@ Aleksandr Demshin Platform repository
 
 ## Table of contents
 
-- [Homework - 1. Kubernetes Intro](#homework---1-kubernetes-intro)
-- [Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
-- [Homewprk - 3. Kubernetes Security](#homework---3-kubernetes-security)
-- [Homework - 4. Kubernetes Networks](#homework---4-kubernetes-networks)
+- [demshin_platform](#demshin_platform)
+  - [Table of contents](#table-of-contents)
+  - [Homework - 1. Kubernetes Intro](#homework---1-kubernetes-intro)
+  - [Вопрос](#вопрос)
+  - [Практическая часть](#практическая-часть)
+  - [Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
+  - [Homework - 3. Kubernetes Security](#homework---3-kubernetes-security)
+  - [Homework - 4. Kubernetes Networks](#homework---4-kubernetes-networks)
 
 ## Homework - 1. Kubernetes Intro
 
@@ -75,3 +79,8 @@ Controlled By:  Node/minikube
 
 ## Homework - 4. Kubernetes Networks
 
+- Работа с redinessProbe и livenessProbe
+- Создание Service ClusterIP
+- Включение IPVS
+- Работа с LoadBalancer и Ingress (MetalLB)
+- Dashboard, Ingress для Dashboard (🌟)

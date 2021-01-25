@@ -12,6 +12,7 @@ Aleksandr Demshin Platform repository
   - [Homework - 2. Kubernetes Controllers](#homework---2-kubernetes-controllers)
   - [Homework - 3. Kubernetes Security](#homework---3-kubernetes-security)
   - [Homework - 4. Kubernetes Networks](#homework---4-kubernetes-networks)
+  - [Homework - 5. Kubernetes Volumes](#homework---5-kubernetes-volumes) 
 
 ## Homework - 1. Kubernetes Intro
 
@@ -84,3 +85,8 @@ Controlled By:  Node/minikube
 - Включение IPVS
 - Работа с LoadBalancer и Ingress (MetalLB)
 - Dashboard, Ingress для Dashboard (🌟)
+
+## Homework - 5. Kubernetes Volumes
+
+- MinIO StatefulSet + Service
+- Secrets for MinIO (🌟)

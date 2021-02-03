@@ -1,6 +1,6 @@
 # demshin_platform
 
-Aleksandr Demshin Platform repository
+Aleksandr Demshin Platform repository.
 
 ## Table of contents
 
